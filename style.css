@@ -27,3 +27,29 @@ body{
 padding-right: 10px;
 
 }
+
+#NOTICIAS{
+
+text-align: center;
+justify-content: center;
+padding: 10px;
+display: flex;
+
+}
+.noticia{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255);
+background-color:  rgb(10, 88, 10);
+border-radius: 15px;
+border: 10px solid   rgb(10, 88, 10) ;
+}
+
+.img_noticia {
+
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border: 5px solid white;
+
+}
