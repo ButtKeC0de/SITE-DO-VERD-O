@@ -80,6 +80,18 @@ body{
     justify-content: center;
 }
 
+    .porcoo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.porcoo img{
+    width: 90px;
+    height: auto;
+    }
+
 
 .noticia{
     width: 340px;
