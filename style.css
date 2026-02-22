@@ -74,6 +74,11 @@ body{
     border: 2px solid white;
     margin-bottom: 4px;
 }
+.linha {
+     display: flex;
+    gap: 18px;
+    justify-content: center;
+}
 
 
 .noticia{
