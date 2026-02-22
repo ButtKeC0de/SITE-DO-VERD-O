@@ -37,8 +37,44 @@ body{
     justify-content: center;
     gap: 18px;
     padding: 18px;
-    background-color: white;
+    background-color: rgb(169, 192, 161);
 }
+
+.Escalação{
+     max-width: 900px;
+    margin: 0 auto 20px auto;
+    padding: 16px;
+    background-color: rgb(14, 54, 6);
+    color: white;
+    border-radius: 16px;
+}
+.Escalação h2{
+    margin: 0 0 14px;
+    text-align: center;
+    font-size:  18px;
+}
+
+
+.campo{
+     display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.jogador{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+.jogador img{
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-bottom: 4px;
+}
+
 
 .noticia{
     width: 340px;
@@ -70,3 +106,7 @@ body{
     border: 2px solid rgba(255,255,255,0.8);
     image-rendering: auto;
 }
+
+
+
+
